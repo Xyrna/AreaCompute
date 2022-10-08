@@ -64,12 +64,20 @@ namespace AreaCompute
                     {
                         double s = Math.Pow(a, 2);
                         double v = Math.Pow(a, 3);
-                        MessageBox.Show("S = " + s + "\n" + "V = " + v);
+                        
+                        MessageBox.Show($"Area: {s}\nVolume: {v}", "Success!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else if (f == 'f')
                 { MessageBox.Show("The value must contain only numbers!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormSelect f = new FormSelect();
+            f.Show();
+            Hide();
         }
     }
 }

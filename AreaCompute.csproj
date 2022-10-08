@@ -52,10 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelect.Designer.cs">
+      <DependentUpon>FormSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSquare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSquare.Designer.cs">
+      <DependentUpon>FormSquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTriangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTriangle.Designer.cs">
+      <DependentUpon>FormTriangle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelect.resx">
+      <DependentUpon>FormSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSquare.resx">
+      <DependentUpon>FormSquare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTriangle.resx">
+      <DependentUpon>FormTriangle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
